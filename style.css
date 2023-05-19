@@ -1,0 +1,38 @@
+.container{
+    background-color:rgb(241, 241, 171);
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.header{
+    display: flex;
+}
+.logo{
+    border: 1px black solid;
+    background-color: rgb(87, 247, 87);
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.brandname{
+    display:flex;
+    font-weight: bold;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    margin-right: 10px;
+}
+.item{
+    padding: 5px 10px;
+}
+.circle{
+    display: flex;
+    border: 1px green solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(24, 235, 24);
+}
